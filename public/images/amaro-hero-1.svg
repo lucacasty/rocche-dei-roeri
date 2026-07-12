@@ -1,0 +1,32 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg">
+
+<stop stop-color="#355834"></stop>
+
+<stop offset="1" stop-color="#182818"></stop>
+
+</linearGradient>
+
+</defs>
+
+
+<rect width="1200" height="800" fill="url(#bg)"></rect>
+
+
+<circle cx="600" cy="400" r="180" fill="#c49a32"></circle>
+
+
+<rect x="520" y="200" width="160" height="400" rx="20" fill="#f8f5ed"></rect>
+
+
+<text x="600" y="420" text-anchor="middle" font-size="35" fill="#355834" font-family="Arial">
+
+AMARO
+
+</text>
+
+
+</svg>

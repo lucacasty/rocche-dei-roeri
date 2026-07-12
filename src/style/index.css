@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #f8f5ed;
+
+    color: #2b2b2b;
+
+    font-family:
+        "Montserrat",
+        Arial,
+        sans-serif;
+}
+
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+section {
+
+    width: 100%;
+
+}
+
+
+.container {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 0 24px;
+
+}
+
+
+/* TITOLI */
+
+h1,
+h2,
+h3,
+h4 {
+
+    letter-spacing: -0.03em;
+
+}
+
+
+
+/* BOTTONI */
+
+button {
+
+    transition: .25s ease !important;
+
+}
+
+
+button:hover {
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* CARD */
+
+.MuiCard-root {
+
+    overflow: hidden;
+
+}
+
+
+
+/* ACCORDION */
+
+.MuiAccordion-root {
+
+    background: #fff !important;
+
+    border-radius: 12px !important;
+
+    margin-bottom: 12px;
+
+}
+
+
+.MuiAccordion-root:before {
+
+    display: none;
+
+}
+
+
+
+/* SEZIONI */
+
+.section {
+
+    padding: 100px 0;
+
+}
+
+
+
+/* IMMAGINI PRODOTTO */
+
+.product-image {
+
+    object-fit: contain;
+
+    height: 600px;
+
+    margin: auto;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:768px) {
+
+
+    .section {
+
+        padding: 60px 0;
+
+    }
+
+
+    .product-image {
+
+        height: 400px;
+
+    }
+
+
+}

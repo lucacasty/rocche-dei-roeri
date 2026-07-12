@@ -1,0 +1,26 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+
+
+<rect width="1200" height="800" fill="#d8c8a0"></rect>
+
+
+<path d="
+M0 600
+Q300 400 600 600
+T1200 500
+V800
+H0
+" fill="#355834"></path>
+
+
+<circle cx="600" cy="350" r="150" fill="#c49a32"></circle>
+
+
+<text x="600" y="360" text-anchor="middle" font-size="40" font-family="Arial" fill="white">
+
+ROERO
+
+</text>
+
+
+</svg>

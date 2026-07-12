@@ -1,0 +1,22 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="800" fill="#7b6b42"></rect>
+
+
+<circle cx="200" cy="200" r="150" fill="#355834"></circle>
+
+
+<circle cx="900" cy="600" r="200" fill="#c49a32"></circle>
+
+
+<rect x="520" y="220" width="160" height="380" rx="20" fill="#fff"></rect>
+
+
+<text x="600" y="420" text-anchor="middle" font-size="30" fill="#355834">
+
+ROCCHE
+
+</text>
+
+
+</svg>
