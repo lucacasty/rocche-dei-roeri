@@ -1,27 +1,18 @@
 import {
 
-Container,
-Typography,
-Box,
-Button
+  Container,
+  Typography,
+  Box,
+  Button
 
 } from "@mui/material";
 
 
-import {
+import { motion } from "framer-motion";
 
-motion
+import RoccheSection from "../../sections/Rocche/RoccheSection";
 
-} from "framer-motion";
-
-
-import RoccheSection
-
-from "../../sections/Rocche/RoccheSection";
-
-
-
-export default function Amarissimo(){
+export default function Amarissimo() {
 
 
   return (
@@ -29,141 +20,132 @@ export default function Amarissimo(){
     <Container maxWidth="lg">
 
 
-    <Box
+      <Box
 
-    component={motion.div}
+        component={motion.div}
 
-    initial={{
+        initial={{
 
-    opacity:0
+          opacity: 0
 
-    }}
+        }}
 
-    animate={{
+        animate={{
 
-    opacity:1
+          opacity: 1
 
-    }}
+        }}
 
-    sx={{
+        sx={{
 
-    py:8
+          py: 8
 
-    }}
+        }}
 
-    >
+      >
 
 
 
-    <Typography
+        <Typography
 
-    variant="h2"
+          variant="h2"
 
-    textAlign="center"
+          textAlign="center"
 
-    fontWeight={700}
+          fontWeight={700}
 
-    >
+        >
 
-    Amarissimo Rocche dei Roeri
+          Amarissimo Rocche dei Roeri
 
-    </Typography>
+        </Typography>
 
 
 
-    <Box
+        <Box
 
-    component="img"
+          component="img"
 
-    src="/images/amarissimo.jpeg"
+          src="/images/amaro.jpeg"
 
-    alt="Amarissimo Rocche dei Roeri"
+          alt="Amarissimo Rocche dei Roeri"
 
-    sx={{
+          sx={{
 
-    display:"block",
+            display: "block",
 
-    mx:"auto",
+            mx: "auto",
 
-    my:6,
+            my: 6,
 
-    height:{
+            height: {
 
-    xs:400,
+              xs: 400,
 
-    md:600
+              md: 600
 
-    }
+            }
 
-    }}
+          }}
 
-    />
+        />
 
 
 
-    <Typography
+        <Typography
 
-    textAlign="center"
+          textAlign="center"
 
-    sx={{
+          sx={{
 
-    maxWidth:900,
+            maxWidth: 900,
 
-    mx:"auto",
+            mx: "auto",
 
-    lineHeight:2
+            lineHeight: 2
 
-    }}
+          }}
 
-    >
+        >
 
+          Amarissimo Rocche dei Roeri ,elisir dal gusto intenso nato dalla
+          della miscela delle erbe del territorio: melissa malva camomilla
+          cardo mariano tarassaco, rosa canina, finocchietto selvatico con la
+          radice di genziana e il rabarbaro, ideale come digestivo per chi ama
+          un sapore deciso senza compromessi, titolo alcolico 28% vol.
 
-    Amarissimo Rocche dei Roeri nasce
-    dalla stessa filosofia dell'amaro originale,
-    con una personalità più intensa e decisa.
+        </Typography>
 
 
-    <br/><br/>
 
+        <Button
 
-    Una miscela di erbe selezionate,
-    radici e botaniche del territorio che
-    creano un gusto complesso e persistente.
+          variant="contained"
 
+          href="/ordina"
 
-    </Typography>
+          sx={{
 
+            display: "block",
 
+            mx: "auto",
 
-    <Button
+            mt: 5
 
-    variant="contained"
+          }}
 
-    href="/ordina"
+        >
 
-    sx={{
+          Ordina ora
 
-    display:"block",
+        </Button>
 
-    mx:"auto",
 
-    mt:5
 
-    }}
 
-    >
+        <RoccheSection />
 
-    Ordina ora
-
-    </Button>
-
-
-
-
-    <RoccheSection />
-
-
-    </Box>
+      </Box>
 
 
     </Container>

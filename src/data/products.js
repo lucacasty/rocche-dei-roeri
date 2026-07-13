@@ -18,7 +18,7 @@ const products = [
 
         name: "Amarissimo Rocche dei Roeri",
 
-        image: "/images/amarissimo.jpeg",
+        image: "/images/amaro.jpeg",
 
         description:
             "Una versione più intensa e strutturata della ricetta originale.",

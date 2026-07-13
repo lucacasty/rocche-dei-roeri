@@ -32,7 +32,7 @@ const slides = [
 
 
   {
-    image: "/images/amaro-hero-1.svg",
+    image: "/images/hero-1.svg",
     title: "Amaro Rocche dei Roeri",
     subtitle:
       "Il gusto autentico delle colline del Roero"
@@ -40,7 +40,7 @@ const slides = [
 
 
   {
-    image: "/images/amaro-hero-2.svg",
+    image: "/images/hero-2.svg",
     title: "Tradizione e natura",
     subtitle:
       "Erbe, fiori e radici selezionate"
@@ -67,8 +67,8 @@ export default function HeroSlider() {
       className="hero-slider"
       sx={{
         height: {
-          xs: "75vh",
-          md: "90vh"
+          xs: "50vh",
+          md: "70vh"
         }
       }}
     >
@@ -221,8 +221,6 @@ export default function HeroSlider() {
 
 
       </Swiper>
-
-
 
     </Box>
 

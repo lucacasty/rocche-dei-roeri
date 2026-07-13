@@ -11,39 +11,39 @@ import {
 
 
 
-export default function RoccheSection(){
+export default function RoccheSection() {
 
 
-    return (
+  return (
 
-        <Box
+    <Box
 
-        component={motion.section}
+      component={motion.section}
 
-        initial={{
-        opacity:0,
-        y:30
-        }}
+      initial={{
+        opacity: 0,
+        y: 30
+      }}
 
-        whileInView={{
-        opacity:1,
-        y:0
-        }}
+      whileInView={{
+        opacity: 1,
+        y: 0
+      }}
 
-        viewport={{
-        once:true
-        }}
+      viewport={{
+        once: true
+      }}
 
-        sx={{
+      sx={{
 
-        py:10
+        py: 10
 
-        }}
+      }}
 
-        >
+    >
 
 
-        <Grid
+      <Grid
 
         container
 
@@ -51,17 +51,17 @@ export default function RoccheSection(){
 
         alignItems="center"
 
-        >
+      >
 
 
 
         <Grid
 
-        item
+          item
 
-        xs={12}
+          xs={12}
 
-        md={6}
+          md={6}
 
         >
 
@@ -72,89 +72,83 @@ export default function RoccheSection(){
 
         <Grid
 
-        item
+          item
 
-        xs={12}
+          xs={12}
 
-        md={6}
-
-        >
-
-
-        <Typography
-
-        variant="h3"
-
-        fontWeight={700}
-
-        gutterBottom
-
-        >
-
-        Cosa sono le Rocche
-
-        </Typography>
-
-
-
-        <Typography
-
-        lineHeight={2}
+          md={6}
 
         >
 
 
-        Le Rocche sono profonde incisioni naturali
-        che caratterizzano il paesaggio del Roero.
+          <Typography
+
+            variant="h3"
+
+            fontWeight={700}
+
+            gutterBottom
+
+          >
+
+            Cosa sono le Rocche
+
+          </Typography>
 
 
-        <br/><br/>
+
+          <Typography
+
+            lineHeight={2}
+
+          >
 
 
-        Sono il risultato dell'erosione delle acque
-        che nel corso dei secoli hanno modellato
-        questo territorio creando un ambiente unico
-        ricco di biodiversità.
+            Colline con pendii ripidi
+            scoscesi con calanchi e
+            canyon, frutto dell’erosione
+            dell'acqua si sviluppano
+            trasversalmente tagliando il
+            territorio del Roero a meta
+            partendo dai comuni di
+            Pocapaglia fino a Cisterna
+            d’Asti. Territorio che
+            custodisce un importante
+            biodiversità dal punto di
+            vista delle speci vegetali.
 
-
-        <br/><br/>
-
-
-        Da questo territorio nasce l'ispirazione
-        dell'Amaro Rocche dei Roeri.
-
-        </Typography>
+          </Typography>
 
 
         </Grid>
 
         <Box
 
-        component="img"
+          component="img"
 
-        src="/images/rocche.svg"
+          src="/images/rocche.svg"
 
-        alt="Le Rocche del Roero"
+          alt="Le Rocche del Roero"
 
-        sx={{
+          sx={{
 
-        width:"100%",
+            width: "100%",
 
-        borderRadius:3
+            borderRadius: 3
 
-        }}
+          }}
 
         />
 
 
 
-        </Grid>
+      </Grid>
 
 
-        </Box>
+    </Box>
 
 
-    );
+  );
 
 
 }

@@ -109,15 +109,15 @@ export default function Amaro(){
     >
 
 
-    Nasce dallo studio delle erbe spontanee
-    del territorio roerino e dei loro utilizzi
-    salutistici.
-
-    <br/><br/>
-
-    Una miscela di erbe, fiori, radici e bacche
-    che racchiude i profumi e i sapori delle
-    colline del Roero.
+    Amaro Rocche dei Roeri un esperienza sensoriale che vi
+    porterà a fare un viaggio nelle colline del Roero.
+    Una nota fresca iniziale del finocchio selvatico che vi
+    introduce in una passeggiata nei boschi delle rocche, il
+    sentore armonico della camomilla e le note di spezie del
+    tarassaco e di scorza di limone della melissa, trasmettono
+    armonia e serenità come la vista sulle colline ordinate con di
+    vigne frutteti e paesini con torri e castelli, titolo alcolico
+    25% vol.
 
 
     </Typography>

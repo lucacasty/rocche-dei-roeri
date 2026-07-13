@@ -65,17 +65,11 @@ export default function About(){
         >
 
 
-        Amaro Rocche dei Roeri nasce dallo studio delle erbe
-        spontanee del territorio roerino e dei loro utilizzi
-        salutistici ad opera del Dott. Cavallero Giuseppe,
-        farmacista di Baldissero d'Alba.
-
-
-        <br/><br/>
-
-
-        Una ricetta composta da erbe, fiori, radici e bacche
-        che racconta l'identità di un territorio unico.
+        Nasce dallo studio delle erbe spontanee del territorio roerino
+        e loro utilizzi salutistici ad opera del Dott Cavallero
+        Giuseppe Farmacista di Baldissero d’Alba,
+        <br></br>
+        Amaro rocche dei roeri è un marchio del registrato
 
         </Typography>
 

@@ -42,7 +42,7 @@ export default function Contact(){
         >
 
 
-        Amaro Rocche dei Roeri<br/>
+        Per info e Ordini : amaro.rocchedeiroeri@yahoo.com<br/>
 
         Farmacia Baldissero del Dott. Cavallero Giuseppe<br/>
 
@@ -51,9 +51,6 @@ export default function Contact(){
         Baldissero d'Alba (CN)<br/>
 
         0172 40082<br/>
-
-        amaro.rocchedeiroeri@yahoo.com
-
 
         </Typography>
 
