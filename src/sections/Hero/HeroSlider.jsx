@@ -35,7 +35,7 @@ const slides = [
     image: "/images/hero-1.svg",
     title: "Amaro Rocche dei Roeri",
     subtitle:
-      "Il gusto autentico delle colline del Roero"
+      "Questo amaro prende il nome dalle rocche delle colline del Roero, fenomeno geologico di erosione, caratterizzato da profonde gole con pareti verticali."
   },
 
 
@@ -43,7 +43,7 @@ const slides = [
     image: "/images/hero-2.svg",
     title: "Tradizione e natura",
     subtitle:
-      "Erbe, fiori e radici selezionate"
+      "Su studio del farmacista di Baldissero d’Alba, che ispirandosi alle erbe che crescono spontanee nel territorio, ha formulato una ricetta di erbe, fiori, radici e bacche che dà vita a questo tipico amaro."
   },
 
 
@@ -51,7 +51,7 @@ const slides = [
     image: "/images/rocche.svg",
     title: "Le Rocche del Roero",
     subtitle:
-      "Un territorio unico da scoprire"
+      "Iidentità di un territorio aspro ma accogliente, ricco di preziosi tesori come il vino, il tartufo e la sapienza di chi da secoli coltiva queste colline con risultati eccellenti."
   }
 
 ];
@@ -124,7 +124,7 @@ export default function HeroSlider() {
 
                     sx={{
 
-                      maxWidth: 650,
+                      maxWidth: 800,
 
                       color: "white"
 
@@ -141,8 +141,8 @@ export default function HeroSlider() {
                       sx={{
 
                         fontSize: {
-                          xs: "2.5rem",
-                          md: "4.5rem"
+                          xs: "2rem",
+                          md: "4rem"
                         },
 
                         fontWeight: 800
@@ -161,12 +161,14 @@ export default function HeroSlider() {
 
                     <Typography
 
-                      variant="h5"
+                      variant="h6"
 
                       sx={{
-
-                        mt: 3
-
+                        mt: 3,
+                        fontSize: {
+                          xs: "1rem",
+                          md: "1.5rem"
+                        },
                       }}
 
                     >
@@ -188,6 +190,11 @@ export default function HeroSlider() {
                       sx={{
 
                         mt: 5,
+
+                        fontSize:{
+                          xs: "0.8rem",
+                          md: "1rem"
+                        },
 
                         background: "#c49a32"
 

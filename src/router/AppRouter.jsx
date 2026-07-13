@@ -1,7 +1,10 @@
+import { useEffect } from "react";
+
 import {
 
   Routes,
-  Route
+  Route,
+  useLocation
 
 } from "react-router-dom";
 
@@ -18,6 +21,14 @@ import {
 
 
 export default function AppRouter() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+
+  }, [location.pathname]);
 
 
   return (

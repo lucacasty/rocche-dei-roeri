@@ -116,29 +116,36 @@ export default function Amarissimo() {
 
         </Typography>
 
-
-
-        <Button
-
-          variant="contained"
-
-          href="/ordina"
-
+        <Box
           sx={{
-
-            display: "block",
-
-            mx: "auto",
-
-            mt: 5
-
+            display: "flex",
+            justifyContent: "center"
           }}
-
         >
 
-          Ordina ora
+          <Button
 
-        </Button>
+            variant="contained"
+
+            href="/ordina"
+
+            sx={{
+
+              width: "auto",
+
+              mx: "auto",
+
+              mt: 5
+
+            }}
+
+          >
+
+            Ordina ora
+
+          </Button>
+
+        </Box>
 
 
 

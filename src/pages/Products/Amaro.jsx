@@ -1,27 +1,27 @@
 import {
 
-Container,
-Typography,
-Box,
-Button
+  Container,
+  Typography,
+  Box,
+  Button
 
 } from "@mui/material";
 
 
 import {
 
-motion
+  motion
 
 } from "framer-motion";
 
 
 import HerbsAccordion
 
-from "../../sections/Herbs/HerbsAccordion";
+  from "../../sections/Herbs/HerbsAccordion";
 
 
 
-export default function Amaro(){
+export default function Amaro() {
 
 
   return (
@@ -29,130 +29,142 @@ export default function Amaro(){
     <Container maxWidth="lg">
 
 
-    <Box
+      <Box
 
-    component={motion.div}
+        component={motion.div}
 
-    initial={{
-    opacity:0
-    }}
+        initial={{
+          opacity: 0
+        }}
 
-    animate={{
-    opacity:1
-    }}
+        animate={{
+          opacity: 1
+        }}
 
-    sx={{
-    py:8
-    }}
+        sx={{
+          py: 8,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center"
+        }}
 
-    >
-
-
-
-    <Typography
-
-    variant="h2"
-
-    textAlign="center"
-
-    fontWeight={700}
-
-    >
-
-    Amaro Rocche dei Roeri
-
-    </Typography>
+      >
 
 
 
-    <Box
+        <Typography
 
-    component="img"
+          variant="h3"
 
-    src="/images/amaro.jpeg"
+          textAlign="center"
 
-    alt="Amaro Rocche dei Roeri"
+          fontWeight={700}
 
-    sx={{
+        >
 
-    display:"block",
+          Amaro Rocche dei Roeri
 
-    mx:"auto",
-
-    my:6,
-
-    height:{
-    xs:400,
-    md:600
-    }
-
-    }}
-
-    />
+        </Typography>
 
 
 
-    <Typography
+        <Box
 
-    textAlign="center"
+          component="img"
 
-    sx={{
+          src="/images/amaro.jpeg"
 
-    maxWidth:900,
+          alt="Amaro Rocche dei Roeri"
 
-    mx:"auto",
+          sx={{
 
-    lineHeight:2
+            display: "block",
 
-    }}
+            mx: "auto",
 
-    >
+            my: 6,
 
+            height: {
+              xs: 400,
+              md: 600
+            }
 
-    Amaro Rocche dei Roeri un esperienza sensoriale che vi
-    porterà a fare un viaggio nelle colline del Roero.
-    Una nota fresca iniziale del finocchio selvatico che vi
-    introduce in una passeggiata nei boschi delle rocche, il
-    sentore armonico della camomilla e le note di spezie del
-    tarassaco e di scorza di limone della melissa, trasmettono
-    armonia e serenità come la vista sulle colline ordinate con di
-    vigne frutteti e paesini con torri e castelli, titolo alcolico
-    25% vol.
+          }}
 
-
-    </Typography>
+        />
 
 
 
-    <Button
+        <Typography
 
-    href="/ordina"
+          textAlign="center"
 
-    variant="contained"
+          sx={{
 
-    sx={{
+            maxWidth: 900,
 
-    display:"block",
+            mx: "auto",
 
-    mx:"auto",
+            lineHeight: 2
 
-    mt:5
+          }}
 
-    }}
-
-    >
-
-    Ordina ora
-
-    </Button>
+        >
 
 
+          Amaro Rocche dei Roeri un esperienza sensoriale che vi
+          porterà a fare un viaggio nelle colline del Roero.
+          Una nota fresca iniziale del finocchio selvatico che vi
+          introduce in una passeggiata nei boschi delle rocche, il
+          sentore armonico della camomilla e le note di spezie del
+          tarassaco e di scorza di limone della melissa, trasmettono
+          armonia e serenità come la vista sulle colline ordinate con di
+          vigne frutteti e paesini con torri e castelli, titolo alcolico
+          25% vol.
 
-    <HerbsAccordion />
+
+        </Typography>
 
 
 
-    </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+
+          <Button
+
+            variant="contained"
+
+            href="/ordina"
+
+            sx={{
+
+              width: "auto",
+
+              mx: "auto",
+
+              mt: 5
+
+            }}
+
+          >
+
+            Ordina ora
+
+          </Button>
+
+        </Box>
+
+
+
+        <HerbsAccordion />
+
+
+
+      </Box>
 
 
     </Container>

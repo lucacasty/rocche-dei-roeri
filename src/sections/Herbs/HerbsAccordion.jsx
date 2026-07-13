@@ -1,146 +1,120 @@
 import {
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  Typography,
-  Box
+    Accordion,
+    AccordionSummary,
+    AccordionDetails,
+    Typography,
+    Box
 } from "@mui/material";
-
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import herbData from "../../data/herbs";
 
-
-
-export default function HerbsAccordion(){
-
+export default function HerbsAccordion() {
 
     return (
-
         <Box
-        sx={{
-        mt:8
-        }}
+            sx={{
+                mt: 8,
+                display: "flex",
+                flexDirection: "column",
+            }}
         >
+            <Typography
+
+                variant="h3"
+
+                sx={{
+                    mb: 4,
+                    textAlign: "center"
+                }}
+
+            >
+
+                Le erbe della miscela
+
+            </Typography>
+
+            {
+                herbData.map((herb) => (
+
+                    <Accordion
+                        key={herb.name}
+                    >
+
+                        <AccordionSummary
+
+                            expandIcon={<ExpandMoreIcon />}
+
+                        >
+
+                            <Typography
+                                fontWeight={700}
+                            >
+
+                                {herb.name}
+
+                            </Typography>
 
 
-        <Typography
+                        </AccordionSummary>
 
-        variant="h3"
-
-        textAlign="center"
-
-        mb={4}
-
-        >
-
-        Le erbe della miscela
-
-        </Typography>
+                        <AccordionDetails>
 
 
+                            <Box
 
-        {
-        herbData.map((herb)=>(
+                                sx={{
 
+                                    display: "flex",
 
-        <Accordion
-        key={herb.name}
-        >
+                                    gap: 3,
 
+                                    flexDirection: {
+                                        xs: "column",
+                                        md: "row"
+                                    },
 
-        <AccordionSummary
+                                    alignItems: "center"
 
-        expandIcon={<ExpandMoreIcon />}
+                                }}
 
-        >
+                            >
+                                <Box
 
+                                    component="img"
 
-        <Typography
-        fontWeight={700}
-        >
+                                    src={herb.image}
 
-        {herb.name}
+                                    alt={herb.name}
 
-        </Typography>
+                                    sx={{
 
+                                        width: {
+                                            xs: "100%",
+                                            md: 220
+                                        },
 
-        </AccordionSummary>
+                                        borderRadius: 3
 
+                                    }}
 
+                                />
 
-        <AccordionDetails>
+                                <Typography>
 
+                                    {herb.description}
 
-        <Box
+                                </Typography>
 
-        sx={{
-
-        display:"flex",
-
-        gap:3,
-
-        flexDirection:{
-        xs:"column",
-        md:"row"
-        },
-
-        alignItems:"center"
-
-        }}
-
-        >
+                            </Box>
 
 
-        <Box
-
-        component="img"
-
-        src={herb.image}
-
-        alt={herb.name}
-
-        sx={{
-
-        width:{
-        xs:"100%",
-        md:220
-        },
-
-        borderRadius:3
-
-        }}
-
-        />
+                        </AccordionDetails>
 
 
-
-        <Typography>
-
-        {herb.description}
-
-        </Typography>
-
-
-
+                    </Accordion>
+                ))
+            }
         </Box>
-
-
-        </AccordionDetails>
-
-
-        </Accordion>
-
-
-        ))
-        }
-
-
-
-        </Box>
-
-
     );
-
-
 }

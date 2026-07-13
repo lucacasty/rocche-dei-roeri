@@ -1,18 +1,12 @@
 import {
   Box,
   Typography,
-  Grid
+  Container
 } from "@mui/material";
 
-
-import {
-  motion
-} from "framer-motion";
-
-
+import { motion } from "framer-motion";
 
 export default function DisclaimerSection() {
-
 
   return (
 
@@ -43,7 +37,7 @@ export default function DisclaimerSection() {
     >
 
 
-        <Grid
+        <Container
 
             item
 
@@ -66,7 +60,6 @@ export default function DisclaimerSection() {
 
             >
 
-
             Bevi responsabilmente nei propri limiti personali in termini di
             quantità e frequenza di consumo, nonché con la consapevolezza
             dei momenti e delle circostanze in cui il consumo di alcol
@@ -75,15 +68,7 @@ export default function DisclaimerSection() {
             Vietato ai minori di 18 anni e in gravidanza
 
             </Typography>
-
-
-        </Grid>
-
-
+        </Container>
     </Box>
-
-
   );
-
-
 }
