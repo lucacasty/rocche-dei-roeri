@@ -4,12 +4,12 @@ const products = [
 
         name: "Amaro Rocche dei Roeri",
 
-        image: "/images/amaro-hero-1.svg",
+        image: "/images/amaro.jpeg",
 
         description:
             "Un amaro nato dalle erbe spontanee del territorio roerino.",
 
-        path: "/amaro"
+        path: "/products"
 
     },
 
@@ -18,12 +18,12 @@ const products = [
 
         name: "Amarissimo Rocche dei Roeri",
 
-        image: "/images/amaro-hero-2.svg",
+        image: "/images/amarissimo.jpeg",
 
         description:
             "Una versione più intensa e strutturata della ricetta originale.",
 
-        path: "/amarissimo"
+        path: "/products"
 
     }
 

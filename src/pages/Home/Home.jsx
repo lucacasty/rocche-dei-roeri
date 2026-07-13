@@ -18,13 +18,7 @@ from "../../sections/About/About";
 
 import Products
 
-from "../../sections/Products/Products";
-
-
-import RoccheSection
-
-from "../../sections/Rocche/RoccheSection";
-
+from "../../sections/Products/ProductsSection";
 
 import Contact
 
@@ -50,8 +44,6 @@ export default function Home(){
       </Box>
 
       <Products />
-
-      <RoccheSection />
 
       <Box id="contatti">
 

@@ -75,7 +75,7 @@ export default function Amarissimo(){
 
     component="img"
 
-    src="/images/bottiglia-amarissimo.png"
+    src="/images/amarissimo.jpeg"
 
     alt="Amarissimo Rocche dei Roeri"
 

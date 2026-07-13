@@ -9,7 +9,7 @@ import {
 import ProductCard from "../../components/ui/ProductCard";
 import productData from "../../data/products";
 
-export default function Products() {
+export default function ProductsSection() {
 
 
 

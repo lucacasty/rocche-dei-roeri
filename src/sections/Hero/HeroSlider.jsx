@@ -181,7 +181,7 @@ export default function HeroSlider() {
 
                       component={Link}
 
-                      to="/amaro"
+                      to="/products"
 
                       variant="contained"
 

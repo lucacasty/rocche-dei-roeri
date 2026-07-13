@@ -66,25 +66,6 @@ export default function RoccheSection(){
         >
 
 
-        <Box
-
-        component="img"
-
-        src="/images/rocche.jpg"
-
-        alt="Le Rocche del Roero"
-
-        sx={{
-
-        width:"100%",
-
-        borderRadius:3
-
-        }}
-
-        />
-
-
         </Grid>
 
 
@@ -146,6 +127,24 @@ export default function RoccheSection(){
 
 
         </Grid>
+
+        <Box
+
+        component="img"
+
+        src="/images/rocche.svg"
+
+        alt="Le Rocche del Roero"
+
+        sx={{
+
+        width:"100%",
+
+        borderRadius:3
+
+        }}
+
+        />
 
 
 

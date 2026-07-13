@@ -9,8 +9,7 @@ import {
 import {
 
   Home,
-  Amaro,
-  Amarissimo,
+  Products,
   Order,
   Privacy
 
@@ -38,22 +37,11 @@ export default function AppRouter() {
 
       <Route
 
-        path="/amaro"
+        path="/products"
 
-        element={<Amaro />}
-
-      />
-
-
-
-      <Route
-
-        path="/amarissimo"
-
-        element={<Amarissimo />}
+        element={<Products />}
 
       />
-
 
 
       <Route

@@ -3,7 +3,7 @@ const herbs = [
     {
         name: "Finocchio selvatico",
 
-        image: "/images/herbs/finocchio.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Erba aromatica che dona alla miscela freschezza e profumi intensi."
@@ -13,7 +13,7 @@ const herbs = [
     {
         name: "Camomilla",
 
-        image: "/images/herbs/camomilla.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Conferisce equilibrio e armonia al gusto finale dell'amaro."
@@ -23,7 +23,7 @@ const herbs = [
     {
         name: "Melissa",
 
-        image: "/images/herbs/melissa.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Regala note fresche e agrumate grazie ai suoi oli essenziali."
@@ -33,7 +33,7 @@ const herbs = [
     {
         name: "Tarassaco",
 
-        image: "/images/herbs/tarassaco.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Una delle botaniche tradizionali utilizzate nella ricetta."
@@ -43,7 +43,7 @@ const herbs = [
     {
         name: "Genziana",
 
-        image: "/images/herbs/genziana.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Contribuisce al carattere deciso e leggermente amaricante."
@@ -53,7 +53,7 @@ const herbs = [
     {
         name: "Rabarbaro",
 
-        image: "/images/herbs/rabarbaro.jpg",
+        image: "/images/herb.jpg",
 
         description:
             "Dona profondità e struttura alla miscela."

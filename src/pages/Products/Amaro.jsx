@@ -69,7 +69,7 @@ export default function Amaro(){
 
     component="img"
 
-    src="/images/bottiglia-amaro.png"
+    src="/images/amaro.jpeg"
 
     alt="Amaro Rocche dei Roeri"
 

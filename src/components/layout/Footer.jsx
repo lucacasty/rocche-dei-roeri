@@ -41,53 +41,27 @@ export default function Footer(){
 
     fontWeight={700}
 
+    sx={{
+
+      mt:3,
+      ml:5
+
+    }}
+
     >
 
     Amaro Rocche dei Roeri
 
     </Typography>
 
-
-
     <Typography
 
     textAlign="center"
 
     sx={{
 
-    mt:2
-
-    }}
-
-    >
-
-
-    Farmacia Baldissero del Dott. Cavallero Giuseppe
-
-    <br/>
-
-    Piazza Martiri 16
-
-    <br/>
-
-    Baldissero d'Alba (CN)
-
-    <br/>
-
-    Tel. 0172 40082
-
-
-    </Typography>
-
-
-
-    <Typography
-
-    textAlign="center"
-
-    sx={{
-
-    mt:3
+      mt:3,
+      ml:5
 
     }}
 
@@ -120,6 +94,8 @@ export default function Footer(){
     sx={{
 
     mt:3,
+
+    ml:5,
 
     opacity:.7
 
