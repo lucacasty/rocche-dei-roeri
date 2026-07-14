@@ -1,64 +1,46 @@
 const herbs = [
-
     {
-        name: "Finocchio selvatico",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Erba aromatica che dona alla miscela freschezza e profumi intensi."
+        latin: "Foeniculum vulgare",
+        title: "Finocchio selvatico",
+        subtitle: "Apiaceae",
+        img: "/images/herb.jpg"
     },
-
-
     {
-        name: "Camomilla",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Conferisce equilibrio e armonia al gusto finale dell'amaro."
+        latin: "Malva Sylvestris",
+        title: "Malva",
+        subtitle: "Malvaceae",
+        img: "/images/herb.jpg"
     },
-
-
     {
-        name: "Melissa",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Regala note fresche e agrumate grazie ai suoi oli essenziali."
+        latin: "Taraxacum Officinale",
+        title: "Tarassaco",
+        subtitle: "Asteraceae",
+        img: "/images/herb.jpg"
     },
-
-
     {
-        name: "Tarassaco",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Una delle botaniche tradizionali utilizzate nella ricetta."
+        latin: "",
+        title: "Rosa Canina",
+        subtitle: "Rosaceae",
+        img: "/images/herb.jpg"
     },
-
-
     {
-        name: "Genziana",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Contribuisce al carattere deciso e leggermente amaricante."
+        latin: "Silybum marianum",
+        title: "Cardo mariano",
+        subtitle: "Asteraceae",
+        img: "/images/herb.jpg"
     },
-
-
     {
-        name: "Rabarbaro",
-
-        image: "/images/herb.jpg",
-
-        description:
-            "Dona profondità e struttura alla miscela."
+        latin: "Melissa Officinalis",
+        title: "Melissa",
+        subtitle: "Lamiaceae",
+        img: "/images/herb.jpg"
+    },
+    {
+        latin: "Matricaria Chamomilla",
+        title: "Camomilla",
+        subtitle: "Asteraceae",
+        img: "/images/herb.jpg"
     }
-
 ];
 
 

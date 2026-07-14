@@ -10,13 +10,18 @@ import herbData from "../../data/herbs";
 
 export default function HerbsGrid() {
 
+    const isOddCount = herbData.length % 2 !== 0;
+
     return (
 
         <Box
 
             sx={{
 
-                py: 8
+                pt: 8,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
 
             }}
 
@@ -28,7 +33,10 @@ export default function HerbsGrid() {
 
                 align="center"
 
-                mb={5}
+                sx={{
+                    mb: 4,
+                    fontWeight: 700
+                }}
 
             >
 
@@ -42,32 +50,37 @@ export default function HerbsGrid() {
 
                 spacing={3}
 
+                sx={{
+                    display: "flex",
+                    justifyContent: "center",
+                    width: { xs: "100%", md: "80%" },
+                    mx: "auto"
+                }}
+
             >
                 {
-                    herbData.map((herb) => (
-
+                    herbData.map((herb, index) => (
 
                         <Grid
 
                             item
 
                             xs={12}
-
                             sm={6}
-
-                            md={4}
-
-                            key={herb.name}
-
+                            key={herb.title}
+                            columnSpacing={2}
+                            sx={{
+                                width: { xs: "100%", sm: 320 }
+                            }}
                         >
 
+                            <Box sx={{ width: { xs: "100%", sm: 320 } }}>
+                                <HerbCard
 
-                            <HerbCard
+                                    {...herb}
 
-                                {...herb}
-
-                            />
-
+                                />
+                            </Box>
 
                         </Grid>
                     ))

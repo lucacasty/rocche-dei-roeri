@@ -3,7 +3,6 @@ import {
   CardMedia,
   CardContent,
   Typography,
-  Collapse,
   Box
 } from "@mui/material";
 
@@ -17,48 +16,52 @@ import {
 
 
 export default function HerbCard({
-  name,
-  image,
-  description
-}){
+  latin,
+  title,
+  subtitle,
+  img
+}) {
 
 
-const [open,setOpen]=useState(false);
+  const [open, setOpen] = useState(false);
 
 
 
-    return (
+  return (
 
-        <Card
+    <Card
 
-        component={motion.div}
+      component={motion.div}
 
-        whileHover={{
-        scale:1.05
-        }}
+      whileHover={{
+        scale: 1.05
+      }}
 
-        onClick={()=>setOpen(!open)}
+      sx={{
+        height: "100%",
+        borderRadius: 4
+      }}
 
+    >
+
+      <Box
         sx={{
-
-        cursor:"pointer",
-        height:"100%",
-        borderRadius:4
-
+          display: "flex",
+          flexDirection: "row",
+          height: "100%"
         }}
-
-        >
+      >
 
 
         <CardMedia
 
-        component="img"
+          component="img"
 
-        height="180"
+          height="180"
 
-        image={image}
+          image={img}
 
-        alt={name}
+          alt={title}
 
         />
 
@@ -67,47 +70,39 @@ const [open,setOpen]=useState(false);
         <CardContent>
 
 
-        <Typography
-        variant="h6"
-        fontWeight="700"
-        >
+          <Typography
+            sx={{ fontStyle: 'italic' }}
+          >
 
-        {name}
+            {latin}
 
-        </Typography>
+          </Typography>
 
+          <Typography
+            variant="h6"
+            fontWeight={700}
+          >
 
+            {title}
 
-        <Collapse
-        in={open}
-        >
-
-        <Box
-        sx={{
-        mt:2
-        }}
-        >
+          </Typography>
 
 
-        <Typography>
+          <Typography>
 
-        {description}
+            {subtitle}
 
-        </Typography>
-
-
-        </Box>
-
-        </Collapse>
-
+          </Typography>
 
         </CardContent>
 
+      </Box>
 
-        </Card>
+
+    </Card>
 
 
-    );
+  );
 
 
 }

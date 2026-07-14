@@ -108,7 +108,7 @@ export default function Amarissimo() {
 
         >
 
-          Amarissimo Rocche dei Roeri ,elisir dal gusto intenso nato dalla
+          Amarissimo Rocche dei Roeri, elisir dal gusto intenso nato dalla
           della miscela delle erbe del territorio: melissa malva camomilla
           cardo mariano tarassaco, rosa canina, finocchietto selvatico con la
           radice di genziana e il rabarbaro, ideale come digestivo per chi ama

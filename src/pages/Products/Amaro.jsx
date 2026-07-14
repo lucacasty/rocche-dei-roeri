@@ -15,9 +15,7 @@ import {
 } from "framer-motion";
 
 
-import HerbsAccordion
-
-  from "../../sections/Herbs/HerbsAccordion";
+import HerbsGrid from "../../sections/Herbs/HerbsGrid";
 
 
 
@@ -160,7 +158,7 @@ export default function Amaro() {
 
 
 
-        <HerbsAccordion />
+        <HerbsGrid />
 
 
 
