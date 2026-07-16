@@ -28,16 +28,9 @@ export default function HerbsGrid() {
         >
 
             <Typography
-
                 variant="h3"
-
                 align="center"
-
-                sx={{
-                    mb: 4,
-                    fontWeight: 700
-                }}
-
+                gutterBottom
             >
 
                 Le erbe della miscela

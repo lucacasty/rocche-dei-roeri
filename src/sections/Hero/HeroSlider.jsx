@@ -136,17 +136,13 @@ export default function HeroSlider() {
 
                     <Typography
 
-                      variant="h1"
+                      variant="h3"
 
                       sx={{
-
-                        fontSize: {
-                          xs: "2rem",
-                          md: "4rem"
-                        },
-
-                        fontWeight: 800
-
+                        mb: {
+                          xs: "1rem",
+                          md: "0rem"
+                        }
                       }}
 
                     >
@@ -162,14 +158,6 @@ export default function HeroSlider() {
                     <Typography
 
                       variant="h6"
-
-                      sx={{
-                        mt: 3,
-                        fontSize: {
-                          xs: "1rem",
-                          md: "1.5rem"
-                        },
-                      }}
 
                     >
 

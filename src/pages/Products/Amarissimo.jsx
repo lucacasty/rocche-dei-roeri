@@ -38,7 +38,7 @@ export default function Amarissimo() {
 
         sx={{
 
-          py: 8
+          py: 5
 
         }}
 
@@ -48,11 +48,9 @@ export default function Amarissimo() {
 
         <Typography
 
-          variant="h2"
-
-          textAlign="center"
-
-          fontWeight={700}
+          variant="h3"
+          align="center"
+          gutterBottom
 
         >
 
@@ -135,7 +133,13 @@ export default function Amarissimo() {
 
               mx: "auto",
 
-              mt: 5
+              mt: 5,
+
+              px: 7,
+
+              py: 1,
+
+              fontSize: 20,
 
             }}
 

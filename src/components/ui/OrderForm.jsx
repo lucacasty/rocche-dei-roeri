@@ -294,7 +294,7 @@ export default function OrderForm() {
 
             >
 
-                Invia richiesta
+                Invia richiesta mail
 
             </Button>
 

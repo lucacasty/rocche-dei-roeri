@@ -1,58 +1,59 @@
 import {
 
-Box,
-Typography
+    Box,
+    Typography
 
 } from "@mui/material";
 
 
-export default function Contact(){
+export default function Contact() {
 
 
     return (
 
         <Box
 
-        sx={{
+            sx={{
 
-        py:10,
+                py: 5,
 
-        textAlign:"center"
+                textAlign: "center"
 
-        }}
+            }}
 
         >
 
 
-        <Typography
-        variant="h3"
-        >
+            <Typography
+                variant="h3"
+                align="center"
+                gutterBottom
+            >
 
-        Contatti
+                Contatti
 
-        </Typography>
-
-
-
-        <Typography
-        sx={{
-        mt:3,
-        lineHeight:2
-        }}
-        >
+            </Typography>
 
 
-        Per info e Ordini : amaro.rocchedeiroeri@yahoo.com<br/>
 
-        Farmacia Baldissero del Dott. Cavallero Giuseppe<br/>
+            <Typography
+                sx={{
+                    lineHeight: 2
+                }}
+            >
 
-        Piazza Martiri 16<br/>
 
-        Baldissero d'Alba (CN)<br/>
+                Per info e Ordini : amaro.rocchedeiroeri@yahoo.com<br />
 
-        0172 40082<br/>
+                Farmacia Baldissero del Dott. Cavallero Giuseppe<br />
 
-        </Typography>
+                Piazza Martiri 16<br />
+
+                Baldissero d'Alba (CN)<br />
+
+                0172 40082<br />
+
+            </Typography>
 
 
         </Box>

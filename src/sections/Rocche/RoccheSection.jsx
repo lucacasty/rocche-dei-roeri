@@ -36,7 +36,7 @@ export default function RoccheSection() {
 
       sx={{
 
-        py: 10
+        py: 5
 
       }}
 
@@ -84,9 +84,7 @@ export default function RoccheSection() {
           <Typography
 
             variant="h3"
-
-            fontWeight={700}
-
+            align="center"
             gutterBottom
 
           >

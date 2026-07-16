@@ -53,12 +53,15 @@ export default function Privacy(){
 
 
         INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI IN RELAZIONE AGLI ART. 13 e 14
-        REGOLAMENTO EUROPEO N. 679/2016
+        REGOLAMENTO EUROPEO N. 679/2016 
+        <br></br><br></br>
         la scrivente Amaro Rocche dei Roeri è un marchio del dott. Cavallero Giuseppe della Farmacia Balldissero
         Piazza martiri 16 Baldissero d’ Alba CN, in qualità di “Titolare del trattamento” La informa, ai sensi degli
         articoli 13 e 14 del Regolamento Europeo n. 679/2016 (in seguito “Regolamento UE”), che i Suoi dati, in
         caso ci venissero trasmessi per E-MAIL saranno trattati secondo quanto di seguito indicato:
-        Oggetto del Trattamento
+        <br></br><br></br>
+        <strong>Oggetto del Trattamento</strong>
+        <br></br>
         Il Titolare del trattamento La informa che i dati personali, identificativi (ad esempio, nome, cognome,
         ragione sociale, indirizzo, telefono, e-mail, riferimenti bancari e/o di pagamento, ecc.), in seguito chiamati
         “dati personali” o anche semplicemente “dati”, a Lei relativi, acquisiti anche verbalmente direttamente o
@@ -69,30 +72,46 @@ export default function Privacy(){
         s’intende qualsiasi operazione o complesso di operazioni concernenti la raccolta, registrazione,
         organizzazione, conservazione, consultazione, elaborazione, modificazione, selezione, estrazione, raffronto,
         utilizzo, interconnessione, blocco, comunicazione, diffusione, distruzione dei dati stessi.
-        Base Giuridica e Finalità del trattamento
+        <br></br><br></br>
+        <strong>Base Giuridica e Finalità del trattamento</strong>
+        <br></br>
         Base giuridica: Regolamento UE n. 679/2016 2A) senza il Suo consenso espresso (art. 6 lett. b), c), e) del
         Regolamento UE), per le seguenti Finalità:
+        <br></br>
         – adempiere agli obblighi precontrattuali, contrattuali e fiscali derivanti da eventuali rapporti con Lei in
         essere;
+        <br></br>
         – adempiere agli obblighi previsti dalla legge, da un regolamento, dalla normativa comunitaria o da un
         ordine dell’Autorità (come ad esempio in materia di antiriciclaggio);
+        <br></br>
         – esercitare i diritti del Titolare del trattamento, ad esempio il diritto di difesa in giudizio;
+        <br></br>
         – per la tenuta della contabilità generale;
+        <br></br>
         – per finalità gestionali (fatturazione, eventuale gestione documentale, ecc.);
+        <br></br>
         – per la gestione dei crediti;
+        <br></br>
         – per analisi statistiche e di controllo qualità;
+        <br></br>
         – per gestioni assicurative;
+        <br></br>
         – per assistenza tecnica.
+        <br></br><br></br>
 
         la informiamo inoltre ed in ogni caso che i Suoi dati 2B) Solo previo Suo specifico e distinto consenso (art. 7
         del Regolamento UE), per le seguenti Finalità commerciali e/o di marketing e/o di profilazione,
         esclusivamente qualora ne facessimo uso e la informassimo preventivamente:
+        <br></br>
         – invio via e-mail, posta e/o sms e/o contatti telefonici di newsletter, comunicazioni commerciali e/o
         materiale pubblicitario su prodotti o servizi offerti dal Titolare del trattamento e/o rilevazione del grado di
         soddisfazione sulla qualità di quanto effettuato su Sua richiesta;
+        <br></br>
         – invio via e-mail, posta e/o sms e/o contatti telefonici di comunicazioni commerciali e/o promozionali di
         soggetti terzi (ad esempio, business partner).
-        Modalità di trattamento
+        <br></br><br></br>
+        <strong>Modalità di trattamento</strong>
+        <br></br>
         Il trattamento dei Suoi dati personali è realizzato per mezzo delle operazioni indicate all’art. 4 n. 2) del
         Regolamento UE e precisamente: la raccolta, la registrazione, l’organizzazione, la strutturazione la
         conservazione, l’adattamento o la modifica,l’estrazione, la consultazione, l’uso, la comunicazione mediante
@@ -100,7 +119,9 @@ export default function Privacy(){
         limitazione, la cancellazione o la distruzione, il blocco. I Suoi dati personali sono sottoposti a trattamento sia
         cartaceo che elettronico e/o automatizzato (comunque idonei a garantire la sicurezza e la riservatezza dei
         dati).
-        Tempi di conservazione dei dati e altre informazioni.
+        <br></br><br></br>
+        <strong>Tempi di conservazione dei dati e altre informazioni.</strong>
+        <br></br>
         Il Titolare tratterà i dati personali per il tempo necessario per adempiere alle finalità di cui sopra e comunque
         per non oltre i termini di legge dalla cessazione del rapporto per le Finalità di cui al rapporto in essere. Con
         riferimento ai dati personali oggetto di Trattamento per Finalità di Marketing e commerciali, gli stessi
@@ -109,12 +130,15 @@ export default function Privacy(){
         dell’interessato. Nello specifico il Titolare del trattamento tratterà i dati per non oltre 3 anni dalla raccolta dei
         dati. I dati personali da Lei forniti saranno trattati “in modo lecito, secondo correttezza e trasparenza”
         tutelando la Sua riservatezza ed i Suoi diritti.
+        <br></br>
         Lei ha inoltre il diritto di revocare in ogni momento un eventuale consenso già dato senza pregiudicare la
         liceità del trattamento basata sul consenso dato prima della revoca. Comunicandolo alla scrivente
-        Titolare e Incaricati
-        Amaro Rocche dei Roeri del dott. Giuseppe Cavallero Farmacia Balldissero Piazza martiri 16 Baldissero
-        d’ Alba CN
-        amaro.rocchedeiroeri@yahoo.com
+        <br></br><br></br>
+        <strong>Titolare e Incaricati</strong>
+        <br></br>
+        <strong>Amaro Rocche dei Roeri</strong> del dott. Giuseppe Cavallero Farmacia Balldissero Piazza martiri 16 Baldissero d’ Alba CN
+        <br></br>
+        <a>amaro.rocchedeiroeri@yahoo.com</a>
 
 
       </Typography>

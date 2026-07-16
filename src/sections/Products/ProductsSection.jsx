@@ -17,7 +17,7 @@ export default function ProductsSection() {
 
         <Box
             sx={{
-                py: 10
+                py: 5
             }}
         >
 
@@ -25,7 +25,7 @@ export default function ProductsSection() {
             <Typography
                 variant="h3"
                 align="center"
-                mb={5}
+                gutterBottom
             >
 
                 I nostri prodotti

@@ -40,7 +40,7 @@ export default function Amaro() {
         }}
 
         sx={{
-          py: 8,
+          py: 5,
           display: "flex",
           flexDirection: "column",
           alignItems: "center"
@@ -55,8 +55,6 @@ export default function Amaro() {
           variant="h3"
 
           textAlign="center"
-
-          fontWeight={700}
 
         >
 

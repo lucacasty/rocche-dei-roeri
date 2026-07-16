@@ -30,7 +30,7 @@ export default function DisclaimerSection() {
 
       sx={{
 
-        py: 10
+        py: 5
 
       }}
 

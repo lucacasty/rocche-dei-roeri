@@ -16,6 +16,8 @@ import {
   ListItemText,
 } from "@mui/material";
 
+import { useTheme } from "@mui/material/styles";
+
 import MenuIcon from "@mui/icons-material/Menu";
 
 import { Link, useLocation } from "react-router-dom";
@@ -24,6 +26,7 @@ import { Link, useLocation } from "react-router-dom";
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
+  const theme = useTheme();
 
   const menuItems = [
     {
@@ -61,7 +64,7 @@ export default function Navbar() {
           sx={{
             flexGrow:1,
             textDecoration:"none",
-            color:"#355834",
+            color: theme.palette.primary.main,
             fontWeight:700
           }}
         >
@@ -87,17 +90,17 @@ export default function Navbar() {
                     component={Link}
                     to={item.path}
                     sx={{
-                        color: location.pathname === item.path ? "#355834" : "#555",
+                        color: location.pathname === item.path ? theme.palette.primary.main : "#555",
                         fontWeight: location.pathname === item.path ? 700 : 500,
                         borderBottom:
                             location.pathname === item.path
-                                ? "3px solid #355834"
+                                ? "3px solid " + theme.palette.primary.main
                                 : "3px solid transparent",
                         borderRadius: 0,
                         px: 2,
                         "&:hover": {
                             backgroundColor: "transparent",
-                            borderBottom: "3px solid #355834"
+                            borderBottom: "3px solid " + theme.palette.primary.main
                         }
                     }}
                 >
