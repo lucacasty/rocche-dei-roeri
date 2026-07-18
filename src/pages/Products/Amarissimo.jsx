@@ -1,13 +1,17 @@
+import { useState } from "react";
+
 import {
 
   Container,
   Typography,
   Box,
-  Button
+  Button,
+  Collapse
 
 } from "@mui/material";
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import {
 
@@ -22,6 +26,7 @@ import RoccheSection from "../../sections/Rocche/RoccheSection";
 
 export default function Amarissimo() {
 
+  const [showDetails, setShowDetails] = useState(false);
 
   return (
 
@@ -153,10 +158,25 @@ export default function Amarissimo() {
         </Box>
 
 
+        <Button
+          color="primary"
+          onClick={() => setShowDetails((prev) => !prev)}
+          endIcon={
+            <ExpandMoreIcon
+              sx={{
+                transform: showDetails ? "rotate(180deg)" : "rotate(0deg)",
+                transition: "transform 0.2s ease"
+              }}
+            />
+          }
+          sx={{ mt: 2, px: 3 }}
+        >
+          {showDetails ? "Nascondi dettagli" : "Scopri le rocche"}
+        </Button>
 
-        <RoccheSection />
-
-
+        <Collapse in={showDetails} timeout="auto" unmountOnExit>
+          <RoccheSection />
+        </Collapse>
 
       </Box>
 

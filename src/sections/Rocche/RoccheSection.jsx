@@ -35,96 +35,36 @@ export default function RoccheSection() {
       }}
 
       sx={{
-
-        py: 5
-
+        py: 5,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center"
       }}
 
     >
 
 
-      <Grid
+      <Typography
 
-        container
-
-        spacing={6}
-
-        alignItems="center"
+        variant="h3"
+        align="center"
+        gutterBottom
 
       >
 
+        Cosa sono le Rocche
 
+      </Typography>
 
-        <Grid
-
-          item
-
-          xs={12}
-
-          md={6}
-
-        >
-
-
-        </Grid>
-
-
-
-        <Grid
-
-          item
-
-          xs={12}
-
-          md={6}
-
-        >
-
-
-          <Typography
-
-            variant="h3"
-            align="center"
-            gutterBottom
-
-          >
-
-            Cosa sono le Rocche
-
-          </Typography>
-
-
-
-          <Typography
-
-            lineHeight={2}
-
-            sx={{
-              px: 5
-            }}
-
-            align="center"
-
-          >
-
-
-            Colline con pendii ripidi
-            scoscesi con calanchi e
-            canyon, frutto dell’erosione
-            dell'acqua si sviluppano
-            trasversalmente tagliando il
-            territorio del Roero a meta
-            partendo dai comuni di
-            Pocapaglia fino a Cisterna
-            d’Asti. Territorio che
-            custodisce un importante
-            biodiversità dal punto di
-            vista delle speci vegetali.
-
-          </Typography>
-
-
-        </Grid>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          width: "80%",
+          alignItems: "center",
+          gap: 4,
+        }}
+      >
 
         <Box
 
@@ -135,21 +75,39 @@ export default function RoccheSection() {
           alt="Le Rocche del Roero"
 
           sx={{
-
-            width: "100%",
-
-            px: 5,
-
-            borderRadius: 3
-
+            borderRadius: 3,
+            width: {
+              xs: "100%",
+              md: "70%"
+            }
           }}
 
-        />
+        >
+        </Box>
+        <Typography
+
+          lineHeight={2}
+
+          align="center"
+
+        >
 
 
+          Colline con pendii ripidi
+          scoscesi con calanchi e
+          canyon, frutto dell’erosione
+          dell'acqua si sviluppano
+          trasversalmente tagliando il
+          territorio del Roero a meta
+          partendo dai comuni di
+          Pocapaglia fino a Cisterna
+          d’Asti. Territorio che
+          custodisce un importante
+          biodiversità dal punto di
+          vista delle speci vegetali.
 
-      </Grid>
-
+        </Typography>
+      </Box>
 
     </Box>
 
