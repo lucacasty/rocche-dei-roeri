@@ -34,7 +34,7 @@ export default function Order(){
 
     variant="h2"
 
-    textAlign="center"
+    align="center"
 
     fontWeight={700}
 
@@ -50,7 +50,7 @@ export default function Order(){
 
     <Typography
 
-    textAlign="center"
+    align="center"
 
     sx={{
 

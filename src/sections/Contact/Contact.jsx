@@ -17,8 +17,6 @@ export default function Contact() {
 
                 py: 5,
 
-                textAlign: "center"
-
             }}
 
         >
@@ -40,6 +38,7 @@ export default function Contact() {
                 sx={{
                     lineHeight: 2
                 }}
+                align="center"
             >
 
 

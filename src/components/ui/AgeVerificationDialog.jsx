@@ -56,7 +56,7 @@ export default function AgeVerificationDialog(){
 
         <Box
 
-        textAlign="center"
+        align="center"
 
         py={3}
 

@@ -99,6 +99,12 @@ export default function RoccheSection() {
 
             lineHeight={2}
 
+            sx={{
+              px: 5
+            }}
+
+            align="center"
+
           >
 
 
@@ -131,6 +137,8 @@ export default function RoccheSection() {
           sx={{
 
             width: "100%",
+
+            px: 5,
 
             borderRadius: 3
 

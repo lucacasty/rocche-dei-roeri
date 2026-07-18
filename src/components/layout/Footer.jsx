@@ -37,8 +37,6 @@ export default function Footer() {
 
       <Typography
 
-        textAlign="center"
-
         variant="h6"
 
         fontWeight={700}
@@ -57,8 +55,6 @@ export default function Footer() {
       </Typography>
 
       <Typography
-
-        textAlign="center"
 
         sx={{
 
@@ -90,8 +86,6 @@ export default function Footer() {
 
 
       <Typography
-
-        textAlign="center"
 
         sx={{
 

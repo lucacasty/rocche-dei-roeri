@@ -56,7 +56,11 @@ export default function DisclaimerSection() {
             <Typography
 
             lineHeight={2}
-            textAlign="center"
+            align="center"
+
+            sx={{
+              px: 5
+            }}
 
             >
 
