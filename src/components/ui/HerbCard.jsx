@@ -33,13 +33,10 @@ export default function HerbCard({
 
       component={motion.div}
 
-      whileHover={{
-        scale: 1.05
-      }}
-
       sx={{
         height: "100%",
-        borderRadius: 4
+        borderRadius: 4,
+        boxShadow: "none",
       }}
 
     >

@@ -59,6 +59,8 @@ export default function Amaro() {
 
           align="center"
 
+          gutterBottom
+
         >
 
           Amaro Rocche dei Roeri
@@ -69,7 +71,6 @@ export default function Amaro() {
           sx={{
             display: "flex",
             flexDirection: "column",
-            my: 4,
             width: {
               xs: "100%",
               md: "80%"

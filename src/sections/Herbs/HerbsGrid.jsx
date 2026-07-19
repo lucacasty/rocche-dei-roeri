@@ -21,20 +21,16 @@ export default function HerbsGrid() {
     const itemsPerView = isMobile ? 1 : 3;
     const [activeIndex, setActiveIndex] = useState(0);
 
-    useEffect(() => {
-        const interval = window.setInterval(() => {
-            setActiveIndex((current) => (current + 1) % herbData.length);
-        }, 4000);
-
-        return () => window.clearInterval(interval);
-    }, []);
-
     const handleNext = () => {
-        setActiveIndex((current) => (current + 1) % herbData.length);
+        if(activeIndex < herbData.length - itemsPerView) {
+            setActiveIndex(activeIndex+1);
+        }
     };
 
     const handlePrev = () => {
-        setActiveIndex((current) => (current - 1 + herbData.length) % herbData.length);
+        if(activeIndex > 0) {
+            setActiveIndex(activeIndex-1);
+        }
     };
 
     const visibleHerbs = Array.from({ length: itemsPerView }, (_, index) => {
@@ -66,8 +62,7 @@ export default function HerbsGrid() {
                     alignItems: "center",
                     justifyContent: "center",
                     width: "100%",
-                    gap: 1,
-                    mb: 3
+                    gap: 1
                 }}
             >
                 <IconButton
@@ -76,8 +71,9 @@ export default function HerbsGrid() {
                     sx={{
                         border: "1px solid",
                         borderColor: "divider",
-                        bgcolor: "background.paper"
+                        bgcolor: "background.paper",
                     }}
+                    disabled={activeIndex === 0}
                 >
                     <ChevronLeftIcon />
                 </IconButton>
@@ -114,6 +110,7 @@ export default function HerbsGrid() {
                         borderColor: "divider",
                         bgcolor: "background.paper"
                     }}
+                    disabled={activeIndex === herbData.length - itemsPerView}
                 >
                     <ChevronRightIcon />
                 </IconButton>

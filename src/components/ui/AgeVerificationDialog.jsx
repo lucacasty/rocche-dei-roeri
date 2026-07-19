@@ -83,7 +83,7 @@ export default function AgeVerificationDialog(){
 
         sx={{
 
-        my:3
+        my:4
 
         }}
 
