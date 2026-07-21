@@ -13,7 +13,7 @@ export default function HerbsImage() {
     return (
         <Box
             sx={{
-                pt: 8,
+                pt: 4,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
