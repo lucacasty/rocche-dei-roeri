@@ -40,7 +40,7 @@ const slides = [
 
 
   {
-    image: "/images/bottiglia-amaro-vetrina.jpeg",
+    image: "/images/campo.jpeg",
     title: "Tradizione e natura",
     subtitle:
       "Su studio del farmacista di Baldissero d’Alba, che ispirandosi alle erbe che crescono spontanee nel territorio, ha formulato una ricetta di erbe, fiori, radici e bacche che dà vita a questo tipico amaro."
