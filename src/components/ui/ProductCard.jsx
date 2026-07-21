@@ -43,7 +43,7 @@ export default function ProductCard({
 
                 component="img"
 
-                height="350"
+                height="500"
 
                 image={image}
 

@@ -37,6 +37,11 @@ export default function ProductsSection() {
             <Grid
                 container
                 spacing={4}
+                sx={{
+                    display: "flex",
+                    justifyContent: "center",
+                    mt: 2
+                }}
             >
 
 

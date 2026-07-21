@@ -92,13 +92,13 @@ export default function Amarissimo() {
           >
             <Box
               component="img"
-              src="/images/amaro.jpeg"
+              src="/images/bottiglia-amarissimo.png"
               alt="Amaro Rocche dei Roeri"
               sx={{
                 display: "block",
                 width: {
-                  xs: "100%",
-                  md: "50%"
+                  xs: "80%",
+                  md: "30%"
                 },
                 flexShrink: 0
               }}

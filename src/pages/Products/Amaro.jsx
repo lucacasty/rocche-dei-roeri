@@ -20,7 +20,7 @@ import {
 } from "framer-motion";
 
 
-import HerbsGrid from "../../sections/Herbs/HerbsGrid";
+import HerbsImage from "../../sections/Herbs/HerbsImage";
 
 
 
@@ -92,13 +92,13 @@ export default function Amaro() {
           >
             <Box
               component="img"
-              src="/images/amaro.jpeg"
+              src="/images/bottiglia-amaro.png"
               alt="Amaro Rocche dei Roeri"
               sx={{
                 display: "block",
                 width: {
-                  xs: "100%",
-                  md: "50%"
+                  xs: "80%",
+                  md: "30%"
                 },
                 flexShrink: 0
               }}
@@ -180,7 +180,7 @@ export default function Amaro() {
         </Button>
 
         <Collapse in={showDetails} timeout="auto" unmountOnExit>
-          <HerbsGrid />
+          <HerbsImage />
         </Collapse>
 
       </Box>

@@ -32,7 +32,7 @@ const slides = [
 
 
   {
-    image: "/images/hero-1.svg",
+    image: "/images/cristalliera.jpeg",
     title: "Amaro Rocche dei Roeri",
     subtitle:
       "Questo amaro prende il nome dalle rocche delle colline del Roero, fenomeno geologico di erosione, caratterizzato da profonde gole con pareti verticali."
@@ -40,7 +40,7 @@ const slides = [
 
 
   {
-    image: "/images/hero-2.svg",
+    image: "/images/bottiglia-amaro-vetrina.jpeg",
     title: "Tradizione e natura",
     subtitle:
       "Su studio del farmacista di Baldissero d’Alba, che ispirandosi alle erbe che crescono spontanee nel territorio, ha formulato una ricetta di erbe, fiori, radici e bacche che dà vita a questo tipico amaro."
@@ -48,7 +48,7 @@ const slides = [
 
 
   {
-    image: "/images/rocche.svg",
+    image: "/images/rocche.png",
     title: "Le Rocche del Roero",
     subtitle:
       "Iidentità di un territorio aspro ma accogliente, ricco di preziosi tesori come il vino, il tartufo e la sapienza di chi da secoli coltiva queste colline con risultati eccellenti."
