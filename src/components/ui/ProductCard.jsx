@@ -87,7 +87,8 @@ export default function ProductCard({
                     to={link}
 
                     sx={{
-                        mt: 2
+                        mt: 2,
+                        fontSize: "1rem",
                     }}
 
                 >

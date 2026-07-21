@@ -179,10 +179,7 @@ export default function HeroSlider() {
 
                         mt: 5,
 
-                        fontSize:{
-                          xs: "0.8rem",
-                          md: "1rem"
-                        },
+                        fontSize: "1rem",
 
                         background: "#c49a32"
 
