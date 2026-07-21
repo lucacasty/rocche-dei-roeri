@@ -58,7 +58,7 @@ export default function OrderForm() {
         Anno di nascita: ${form.anno_nascita}
 
         Dati necessari per adempiere a obbligo di controllo di legge.
-        La vendita di alcolici � destinata ad un pubblico adulto.
+        La vendita di alcolici è destinata ad un pubblico adulto.
         Legge - 30/03/2001, n. 125`;
 
         return `mailto:amaro.rocchedeiroeri@yahoo.com?subject=Ordine Amaro Rocche dei Roeri&body=${encodeURIComponent(body)}`;
