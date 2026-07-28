@@ -22,11 +22,14 @@ import {
 
 import RoccheSection from "../../sections/Rocche/RoccheSection";
 
+import { useTheme } from "@mui/material/styles";
+
 
 
 export default function Amarissimo() {
 
   const [showDetails, setShowDetails] = useState(false);
+  const theme = useTheme();
 
   return (
 
@@ -128,7 +131,11 @@ export default function Amarissimo() {
 
                 <Button
                   variant="contained"
-                  sx={{ width: "80%" }}
+                  sx={{
+                    width: "80%",
+                    background: theme.palette.background.button,
+                    color: theme.palette.primary.main
+                  }}
                   href="/ordina"
                 >
                   <Box
@@ -138,11 +145,6 @@ export default function Amarissimo() {
                       width: "100%",
                     }}
                   >
-                    <ShoppingCartIcon
-                      sx={{
-                        position: "absolute",
-                      }}
-                    />
                     <Box
                      sx={{
                       flexGrow: 1,
@@ -160,7 +162,7 @@ export default function Amarissimo() {
 
 
         <Button
-          color="primary"
+          color = "background"
           onClick={() => setShowDetails((prev) => !prev)}
           endIcon={
             <ExpandMoreIcon

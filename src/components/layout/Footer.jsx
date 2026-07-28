@@ -21,7 +21,7 @@ export default function Footer() {
 
       sx={{
 
-        background: theme.palette.primary.main,
+        background: theme.palette.background.contrast,
 
         color: "#fff",
 

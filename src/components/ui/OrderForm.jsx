@@ -21,6 +21,29 @@ export default function OrderForm() {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
+    const textFieldSx = {
+        '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+                borderColor: '#000000',
+                borderWidth: '1px',
+            },
+            '&:hover fieldset': {
+                borderColor: '#000000',
+            },
+            '&.Mui-focused fieldset': {
+                borderColor: '#000000',
+                borderWidth: '2px',
+                boxShadow: 'none',
+            },
+        },
+        '& .MuiInputLabel-root': {
+            color: '#000000',
+        },
+        '& .MuiInputLabel-root.Mui-focused': {
+            color: '#000000',
+        },
+    };
+
     const [form, setForm] = useState({
         nome: "",
         cognome: "",
@@ -87,6 +110,7 @@ export default function OrderForm() {
                 value={form.nome}
                 onChange={handleChange}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -95,6 +119,7 @@ export default function OrderForm() {
                 value={form.cognome}
                 onChange={handleChange}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -104,6 +129,7 @@ export default function OrderForm() {
                 value={form.email}
                 onChange={handleChange}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -113,6 +139,7 @@ export default function OrderForm() {
                 value={form.telefono}
                 onChange={handleChange}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -121,6 +148,7 @@ export default function OrderForm() {
                 value={form.comune}
                 onChange={handleChange}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -130,6 +158,7 @@ export default function OrderForm() {
                 onChange={handleChange}
                 inputProps={{ maxLength: 4 }}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <TextField
@@ -140,6 +169,7 @@ export default function OrderForm() {
                 multiline
                 rows={5}
                 fullWidth
+                sx={textFieldSx}
             />
 
             <FormControlLabel
@@ -147,6 +177,12 @@ export default function OrderForm() {
                     <Checkbox
                         checked={privacy}
                         onChange={(e) => setPrivacy(e.target.checked)}
+                        sx={{
+                            color: "green",
+                            '&.Mui-checked': {
+                                color: "green",
+                            },
+                        }}
                     />
                 }
                 label="Dichiaro di aver preso visione e accettare l'informativa sulla privacy"
@@ -157,6 +193,12 @@ export default function OrderForm() {
                     <Checkbox
                         checked={adult}
                         onChange={(e) => setAdult(e.target.checked)}
+                        sx={{
+                            color: "green",
+                            '&.Mui-checked': {
+                                color: "green",
+                            },
+                        }}
                     />
                 }
                 label="Dichiaro di essere MAGGIORENNE"
@@ -167,6 +209,10 @@ export default function OrderForm() {
                 size="large"
                 disabled={!privacy || !adult}
                 onClick={sendMail}
+                sx={{
+                    background: theme.palette.background.button,
+                    color: theme.palette.primary.main
+                }}
             >
                 Invia richiesta mail
             </Button>

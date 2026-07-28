@@ -22,11 +22,12 @@ import {
 
 import HerbsImage from "../../sections/Herbs/HerbsImage";
 
-
+import { useTheme } from "@mui/material/styles";
 
 export default function Amaro() {
 
   const [showDetails, setShowDetails] = useState(false);
+  const theme = useTheme();
 
   return (
 
@@ -132,7 +133,11 @@ export default function Amaro() {
 
                 <Button
                   variant="contained"
-                  sx={{ width: "80%" }}
+                  sx={{
+                    width: "80%",
+                    background: theme.palette.background.button,
+                    color: theme.palette.primary.main
+                  }}
                   href="/ordina"
                 >
                   <Box
@@ -142,11 +147,6 @@ export default function Amaro() {
                       width: "100%",
                     }}
                   >
-                    <ShoppingCartIcon
-                      sx={{
-                        position: "absolute",
-                      }}
-                    />
                     <Box
                      sx={{
                       flexGrow: 1,
@@ -164,7 +164,7 @@ export default function Amaro() {
 
 
         <Button
-          color="primary"
+          color = "background"
           onClick={() => setShowDetails((prev) => !prev)}
           endIcon={
             <ExpandMoreIcon

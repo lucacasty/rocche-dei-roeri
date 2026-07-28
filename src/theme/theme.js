@@ -12,21 +12,15 @@ let theme = createTheme({
 
     primary: {
 
-      main: "#355834"
+      main: "#FFF"
 
     },
-
-
-    secondary: {
-
-      main: "#C49A32"
-
-    },
-
 
     background: {
 
-      default: "#F8F5ED"
+      default: "#7fb4bf2b",
+      contrast: "#000",
+      button: "green"
 
     }
 

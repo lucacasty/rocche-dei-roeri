@@ -8,6 +8,7 @@ import {
 
 } from "@mui/material";
 
+import { useTheme } from "@mui/material/styles";
 
 import {
     Link
@@ -23,6 +24,7 @@ export default function ProductCard({
 
 }) {
 
+    const theme = useTheme();
 
     return (
 
@@ -32,7 +34,11 @@ export default function ProductCard({
 
                 height: "100%",
 
-                borderRadius: 4
+                borderRadius: 4,
+
+                boxShadow: "0 10px 30px #000000a1",
+
+                background: "#FFF"
 
             }}
 
@@ -89,6 +95,8 @@ export default function ProductCard({
                     sx={{
                         mt: 2,
                         fontSize: "1rem",
+                        background: theme.palette.background.button,
+                        color: theme.palette.primary.main
                     }}
 
                 >

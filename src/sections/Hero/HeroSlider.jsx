@@ -22,11 +22,9 @@ import {
   Link
 } from "react-router-dom";
 
-
 import "swiper/css";
 import "swiper/css/effect-fade";
-
-
+import { useTheme } from "@mui/material/styles";
 
 const slides = [
 
@@ -60,7 +58,7 @@ const slides = [
 
 export default function HeroSlider() {
 
-
+  const theme = useTheme();
   return (
 
     <Box
@@ -181,7 +179,9 @@ export default function HeroSlider() {
 
                         fontSize: "1rem",
 
-                        background: "#c49a32"
+                        background: "green",
+
+                        color: "white"
 
                       }}
 

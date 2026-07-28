@@ -49,31 +49,40 @@ export default function Navbar() {
       position="sticky"
       elevation={1}
       sx={{
-        backgroundColor:"#ffffff",
-        color:"#333"
+        backgroundColor: theme.palette.background.contrast
       }}
     >
 
       <Toolbar>
 
-
-        <Typography
-          variant="h6"
-          component={Link}
-          to="/"
+        <Box
           sx={{
-            flexGrow:1,
-            textDecoration:"none",
-            color: theme.palette.primary.main,
-            fontWeight:700
+            flexGrow: 1,
           }}
         >
-
-          Amaro Rocche dei Roeri
-
-        </Typography>
-
-
+          <Link
+            to="/"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              width: "fit-content",
+              margin: "0 auto",
+            }}
+          >
+            <Box
+              component="img"
+              src="/images/logo.jpg"
+              alt="Amaro rocche dei roeri"
+              sx={{
+                height: {
+                  xs: "60px",
+                  md: "80px"
+                },
+                display: "block"
+              }}
+            />
+          </Link>
+        </Box>
         <Box
             sx={{
                 display: {
@@ -81,7 +90,9 @@ export default function Navbar() {
                     md: "flex"
                 },
                 alignItems: "center",
-                gap: 1
+                gap: 1,
+                position: "absolute",
+                right: "24px"
             }}
         >
             {menuItems.map((item) => (
@@ -101,7 +112,8 @@ export default function Navbar() {
                         "&:hover": {
                             backgroundColor: "transparent",
                             borderBottom: "3px solid " + theme.palette.primary.main
-                        }
+                        },
+                        opacity: 1
                     }}
                 >
                     {item.label}
@@ -118,8 +130,12 @@ export default function Navbar() {
             display:{
               xs:"flex",
               md:"none"
-            }
+            } ,
+            position: "absolute",
+            right: "10px",
           }}
+
+          color="primary"
 
           onClick={()=>setMobileOpen(true)}
 
@@ -147,7 +163,7 @@ export default function Navbar() {
 
         <Box
           sx={{
-            width:250
+            width:250,
           }}
         >
 
@@ -165,11 +181,22 @@ export default function Navbar() {
                   <ListItemButton
                     component={Link}
                     to={item.path}
-                    onClick={()=>setMobileOpen(false)}
+                    onClick={() => setMobileOpen(false)}
+                    sx={{
+                      backgroundColor: location.pathname === item.path ? theme.palette.primary.main : "transparent",
+                      color: location.pathname === item.path ? theme.palette.primary.contrastText : "inherit",
+                      fontWeight: location.pathname === item.path ? 700 : 400
+                    }}
                   >
 
                     <ListItemText
                       primary={item.label}
+                      sx={{
+                        color: "inherit",
+                        '& .MuiTypography-root': {
+                          fontWeight: location.pathname === item.path ? 700 : 400,
+                        },
+                      }}
                     />
 
                   </ListItemButton>
