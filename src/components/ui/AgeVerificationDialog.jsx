@@ -8,6 +8,7 @@ Box
 
 } from "@mui/material";
 
+import { useTheme } from "@mui/material/styles";
 
 import {
 
@@ -22,14 +23,16 @@ export default function AgeVerificationDialog(){
 
     const [open,setOpen] = useState(
 
-        localStorage.getItem("ageVerified") !== "true"
+        sessionStorage.getItem("ageVerified") !== "true"
 
     );
+
+    const theme = useTheme();
 
 
 
     const confirm = ()=>{
-        localStorage.setItem(
+        sessionStorage.setItem(
         "ageVerified",
         "true"
         );
@@ -99,11 +102,22 @@ export default function AgeVerificationDialog(){
 
 
 
+        <Typography sx={{ mb: 2 }}>
+            <a href="/bevi_responsabilmente.pdf" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: 'underline' }}>
+                Leggi il PDF sulla responsabilità del consumo
+            </a>
+        </Typography>
+
         <Button
 
         variant="contained"
 
         onClick={confirm}
+
+        sx={{
+            background: theme.palette.background.button,
+            color: theme.palette.primary.main,
+        }}
 
         >
 

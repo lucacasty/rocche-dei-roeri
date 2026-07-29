@@ -5,14 +5,14 @@ export default function useAgeVerification(){
 
 
 const [verified,setVerified] = useState(
-  localStorage.getItem("ageVerified") === "true"
+  sesstionStorage.getItem("ageVerified") === "true"
 );
 
 
 
 const confirmAge = () => {
 
-  localStorage.setItem(
+  sesstionStorage.setItem(
     "ageVerified",
     "true"
   );
@@ -25,7 +25,7 @@ const confirmAge = () => {
 
 const resetAge = () => {
 
-  localStorage.removeItem(
+  sesstionStorage.removeItem(
     "ageVerified"
   );
 
