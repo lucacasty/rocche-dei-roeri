@@ -26,6 +26,10 @@ export default function HerbsImage() {
                 as="img"
                 src="/images/erbe.png"
                 alt="Erbe della ricetta"
+                sx={{
+                    width:{ xs: "100%", sm: "80%"}
+                }}
+
             >
             </Box>
         </Box>
