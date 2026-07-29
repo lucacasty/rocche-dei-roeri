@@ -4,7 +4,7 @@ const products = [
 
         name: "Amaro Rocche dei Roeri",
 
-        image: "/images/bottiglia-amaro-vetrina.jpeg",
+        image: "/images/bottiglia-amaro.png",
 
         description:
             "Un amaro nato dalle erbe spontanee del territorio roerino.",

@@ -70,7 +70,7 @@ export default function RoccheSection() {
 
           component="img"
 
-          src="/images/rocche.png"
+          src="/images/rocche.jpeg"
 
           alt="Le Rocche del Roero"
 
@@ -78,7 +78,7 @@ export default function RoccheSection() {
             borderRadius: 3,
             width: {
               xs: "100%",
-              md: "70%"
+              md: "50%"
             }
           }}
 
