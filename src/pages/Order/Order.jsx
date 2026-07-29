@@ -32,7 +32,7 @@ export default function Order(){
 
     <Typography
 
-    variant="h2"
+    variant="h3"
 
     align="center"
 

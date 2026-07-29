@@ -14,7 +14,8 @@ import {
   Home,
   Products,
   Order,
-  Privacy
+  Privacy,
+  Condizioni
 
 } from "../pages";
 
@@ -70,6 +71,14 @@ export default function AppRouter() {
         path="/privacy"
 
         element={<Privacy />}
+
+      />
+
+      <Route
+
+        path="/condizioni"
+
+        element={<Condizioni />}
 
       />
 

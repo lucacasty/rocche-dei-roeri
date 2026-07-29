@@ -25,7 +25,7 @@ export default function Footer() {
 
         color: "#fff",
 
-        py: 5,
+        py: 2,
 
         mt: 8
 
@@ -68,11 +68,36 @@ export default function Footer() {
 
         <Link
 
-          href="/privacy"
+          href="/condizioni"
 
           color="inherit"
 
-          underline="hover"
+        >
+
+          Condizioni di vendita
+
+        </Link>
+
+
+      </Typography>
+
+      <Typography
+
+        sx={{
+
+          mt: 3,
+          ml: 5
+
+        }}
+
+      >
+
+
+        <Link
+
+          href="/privacy"
+
+          color="inherit"
 
         >
 
