@@ -11,9 +11,9 @@ import HeroSlider
 from "../../sections/Hero/HeroSlider";
 
 
-import About
+import AboutSection
 
-from "../../sections/About/About";
+from "../../sections/About/AboutSection";
 
 
 import Products
@@ -39,7 +39,7 @@ export default function Home(){
 
       <Box id="chi-siamo">
 
-      <About />
+      <AboutSection />
 
       </Box>
 

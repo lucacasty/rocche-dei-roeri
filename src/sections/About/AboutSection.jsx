@@ -1,16 +1,24 @@
 import {
     Box,
-    Typography
+    Typography,
+    Button
 } from "@mui/material";
+
+import {
+    Link
+} from "react-router-dom";
 
 
 import {
     motion
 } from "framer-motion";
 
+import { useTheme } from "@mui/material/styles";
 
-export default function About() {
 
+export default function AboutSection() {
+
+    const theme = useTheme();
 
     return (
 
@@ -31,16 +39,21 @@ export default function About() {
             }}
 
             sx={{
-                py: 5
+                py: 5,
+                display: "flex",
+                alignItems: "center",
+                flexDirection: "column"
             }}
+
 
         >
 
 
             <Typography
                 variant="h3"
-                align="center"
                 gutterBottom
+                component={Link}
+                to="/about"
             >
 
                 Chi siamo

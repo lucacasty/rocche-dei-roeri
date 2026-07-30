@@ -34,6 +34,10 @@ export default function Navbar() {
       path: "/"
     },
     {
+      label: "Chi siamo",
+      path: "/about"
+    },
+    {
       label: "Prodotti",
       path: "/products"
     },

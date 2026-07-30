@@ -12,6 +12,7 @@ import {
 import {
 
   Home,
+  About,
   Products,
   Order,
   Privacy,
@@ -45,7 +46,13 @@ export default function AppRouter() {
 
       />
 
+      <Route
 
+        path="/about"
+
+        element={<About />}
+
+      />
 
       <Route
 
