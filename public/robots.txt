@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rocche-dei-roeri.web.app/sitemap.xml
