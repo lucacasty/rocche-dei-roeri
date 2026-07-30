@@ -182,7 +182,9 @@ export default function Condizioni(){
       <br></br>
       b) il venditore non ha provveduto alla sostituzione entro un termine congruo;
       <br></br>
-      c) la sostituzione o la riparazione precedentemente effettuata ha recato notevoli inconvenienti al Consumatore. 7.11. Nel determinare l’importo della riduzione
+      c) la sostituzione o la riparazione precedentemente effettuata ha recato notevoli inconvenienti al Consumatore. 
+      <br></br>
+      7.11. Nel determinare l’importo della riduzione
       o la somma da restituire si tiene conto dell’uso del bene.
       <br></br>
       7.12. Dopo la denuncia del Difetto di conformità il venditore può offrire al Consumatore qualsiasi altro rimedio disponibile, con i seguenti effetti:
