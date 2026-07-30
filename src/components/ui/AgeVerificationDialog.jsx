@@ -104,7 +104,7 @@ export default function AgeVerificationDialog(){
 
         <Typography sx={{ mb: 2 }}>
             <a href="/bevi_responsabilmente.pdf" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: 'underline' }}>
-                Leggi il PDF sulla responsabilità del consumo
+                Bevi responsabilmente
             </a>
         </Typography>
 

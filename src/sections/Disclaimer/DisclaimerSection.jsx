@@ -72,6 +72,11 @@ export default function DisclaimerSection() {
             Vietato ai minori di 18 anni e in gravidanza
 
             </Typography>
+            <Typography sx={{ mb: 2 }} align="center">
+            <a href="/bevi_responsabilmente.pdf" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: 'underline' }}>
+                Bevi responsabilmente
+            </a>
+        </Typography>
         </Container>
     </Box>
   );
