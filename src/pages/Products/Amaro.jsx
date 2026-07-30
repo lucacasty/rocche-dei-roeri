@@ -98,10 +98,11 @@ export default function Amaro() {
               sx={{
                 display: "block",
                 width: {
-                  xs: "80%",
-                  md: "30%"
+                  xs: "60%",
+                  md: "20%"
                 },
-                flexShrink: 0
+                flexShrink: 0,
+                p:2
               }}
             />
 
@@ -176,11 +177,11 @@ export default function Amaro() {
           }
           sx={{ mt: 2, px: 3 }}
         >
-          {showDetails ? "Nascondi dettagli" : "Scopri le erbe"}
+          {showDetails ? "Nascondi" : "Le erbe che lo compongono"}
         </Button>
 
         <Collapse in={showDetails} timeout="auto" unmountOnExit>
-          <HerbsImage />
+          <HerbsImage image="erbe-amaro.png"/>
         </Collapse>
 
       </Box>

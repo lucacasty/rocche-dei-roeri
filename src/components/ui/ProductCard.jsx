@@ -51,6 +51,10 @@ export default function ProductCard({
 
                 height="500"
 
+                sx={{
+                    px: {"xs": 10, md: 20}
+                }}
+
                 image={image}
 
                 alt={title}

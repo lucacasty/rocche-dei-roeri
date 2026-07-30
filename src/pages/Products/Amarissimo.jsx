@@ -20,7 +20,7 @@ import {
 } from "framer-motion";
 
 
-import RoccheSection from "../../sections/Rocche/RoccheSection";
+import HerbsImage from "../../sections/Herbs/HerbsImage";
 
 import { useTheme } from "@mui/material/styles";
 
@@ -100,10 +100,11 @@ export default function Amarissimo() {
               sx={{
                 display: "block",
                 width: {
-                  xs: "80%",
-                  md: "30%"
+                  xs: "60%",
+                  md: "20%"
                 },
-                flexShrink: 0
+                flexShrink: 0,
+                p:2
               }}
             />
 
@@ -174,11 +175,11 @@ export default function Amarissimo() {
           }
           sx={{ mt: 2, px: 3 }}
         >
-          {showDetails ? "Nascondi dettagli" : "Scopri le rocche"}
+          {showDetails ? "Nascondi" : "Le erbe che lo compongono"}
         </Button>
 
         <Collapse in={showDetails} timeout="auto" unmountOnExit>
-          <RoccheSection />
+          <HerbsImage image="erbe-amarissimo.png"/>
         </Collapse>
 
       </Box>

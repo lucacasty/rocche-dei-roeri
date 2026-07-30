@@ -8,7 +8,7 @@ import {
     useMediaQuery
 } from "@mui/material";
 
-export default function HerbsImage() {
+export default function HerbsImage({image}) {
 
     return (
         <Box
@@ -24,10 +24,11 @@ export default function HerbsImage() {
             <Box
 
                 as="img"
-                src="/images/erbe.png"
+                src={"/images/"+image}
                 alt="Erbe della ricetta"
                 sx={{
-                    width:{ xs: "100%", sm: "80%"}
+                    width:{ xs: "100%", sm: "800px"},
+                    background: "#FFF"
                 }}
 
             >
