@@ -49,10 +49,11 @@ export default function ProductCard({
 
                 component="img"
 
-                height="500"
-
                 sx={{
-                    px: {"xs": 10, md: 20}
+                    px: {"xs": 18, md: 20},
+                    width: {"xs": "100%", md: 500},
+                    py: 1,
+                    objectFit: "contain"
                 }}
 
                 image={image}

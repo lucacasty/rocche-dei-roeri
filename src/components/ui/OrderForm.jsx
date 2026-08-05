@@ -178,7 +178,6 @@ export default function OrderForm() {
                         checked={privacy}
                         onChange={(e) => setPrivacy(e.target.checked)}
                         sx={{
-                            color: "green",
                             '&.Mui-checked': {
                                 color: "green",
                             },
@@ -194,7 +193,6 @@ export default function OrderForm() {
                         checked={adult}
                         onChange={(e) => setAdult(e.target.checked)}
                         sx={{
-                            color: "green",
                             '&.Mui-checked': {
                                 color: "green",
                             },
@@ -219,7 +217,7 @@ export default function OrderForm() {
 
             <Box
                 sx={{
-                    display: "flex",
+                    display: {xs: "none", md: "flex"},
                     flexDirection: "column",
                     alignItems: "center",
                     gap: 1.5,

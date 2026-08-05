@@ -40,7 +40,7 @@ export default function ProductsSection() {
                 sx={{
                     display: "flex",
                     justifyContent: "center",
-                    mt: 2
+                    mt: 4
                 }}
             >
 

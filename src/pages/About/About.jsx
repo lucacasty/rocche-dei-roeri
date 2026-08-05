@@ -14,16 +14,16 @@ const aboutHeroSlides = [
 ];
 
 const herbSlides = [
-  { image: "/images/erba1.jpeg" },
+  //{ image: "/images/erba1.jpeg" },
   { image: "/images/erba2.jpeg" },
   { image: "/images/erba4.jpeg" },
-  { image: "/images/erba5.jpeg" },
-  { image: "/images/erba6.jpeg" },
-  { image: "/images/erba7.jpeg" },
   { image: "/images/erba8.jpeg" },
   { image: "/images/erba9.jpeg" },
+  { image: "/images/erba6.jpeg" },
   { image: "/images/erba10.jpeg" },
-  { image: "/images/erba11.jpeg" }
+  { image: "/images/erba5.jpeg" },
+  { image: "/images/erba11.jpeg" },
+  { image: "/images/erba7.jpeg" },
 ];
 
 export default function About() {

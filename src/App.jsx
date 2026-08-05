@@ -1,53 +1,28 @@
-import {
+import { Box } from "@mui/material";
 
-BrowserRouter
-
-} from "react-router-dom";
-
-
-import Navbar
-
-from "./components/layout/Navbar";
-
-
-import Footer
-
-from "./components/layout/Footer";
-
-
-import AppRouter
-
-from "./router/AppRouter";
-
-
-import AgeVerificationDialog
-
-from "./components/ui/AgeVerificationDialog";
-
-
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import AppRouter from "./router/AppRouter";
+import AgeVerificationDialog from "./components/ui/AgeVerificationDialog";
 
 export default function App(){
 
-
   return (
 
-    <>
+    <Box className="app-root" sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
 
-    <AgeVerificationDialog />
+      <AgeVerificationDialog />
 
+      <Navbar />
 
-    <Navbar />
+      <Box component="main" sx={{flex: 1}}>
+        <AppRouter />
+      </Box>
 
+      <Footer />
 
-    <AppRouter />
-
-
-    <Footer />
-
-
-    </>
+    </Box>
 
   );
-
 
 }

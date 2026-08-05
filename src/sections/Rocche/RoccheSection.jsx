@@ -59,8 +59,7 @@ export default function RoccheSection() {
       <Box
         sx={{
           display: "flex",
-          flexDirection: {xs: "column", md:"row"},
-          width: "80%",
+          flexDirection: {xs: "column"},
           alignItems: "center",
           gap: 4,
         }}
@@ -70,15 +69,14 @@ export default function RoccheSection() {
 
           component="img"
 
-          src="/images/rocche.jpeg"
+          src="/images/rocche.png"
 
           alt="Le Rocche del Roero"
 
           sx={{
             borderRadius: 3,
             width: {
-              xs: "100%",
-              md: "50%"
+              xs: "100%"
             }
           }}
 

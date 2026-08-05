@@ -20,20 +20,19 @@ export default function Footer() {
       component="footer"
 
       sx={{
-
         background: theme.palette.background.contrast,
-
         color: "#fff",
-
         py: 2,
-
-        mt: 8
-
+        mt: 8,
+        display: "flex",
+        justifyContent: "space-between",
+        flexDirection: {xs: "column", md: "row"},
+        gap: 2,
       }}
 
     >
 
-
+      <Box>
 
       <Typography
 
@@ -129,7 +128,17 @@ export default function Footer() {
 
       </Typography>
 
+      </Box>
 
+      <Box
+        as="img"
+        src="/images/logo-footer.jpeg"
+        sx={{
+          height: 200,
+          mx: 5,
+        }}
+      >
+      </Box>
 
     </Box>
 

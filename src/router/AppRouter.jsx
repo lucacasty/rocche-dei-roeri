@@ -15,6 +15,7 @@ import {
   About,
   Products,
   Order,
+  Rocche,
   Privacy,
   Condizioni
 
@@ -71,7 +72,13 @@ export default function AppRouter() {
 
       />
 
+      <Route
 
+        path="/rocche"
+
+        element={<Rocche />}
+
+      />
 
       <Route
 

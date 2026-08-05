@@ -98,7 +98,7 @@ export default function Amaro() {
               sx={{
                 display: "block",
                 width: {
-                  xs: "60%",
+                  xs: "40%",
                   md: "20%"
                 },
                 flexShrink: 0,

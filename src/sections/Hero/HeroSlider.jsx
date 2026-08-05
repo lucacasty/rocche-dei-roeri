@@ -37,7 +37,8 @@ const defaultSlides = [
     image: "/images/rocche.png",
     title: "Le Rocche del Roero",
     subtitle:
-      "Iidentità di un territorio aspro ma accogliente, ricco di preziosi tesori come il vino, il tartufo e la sapienza di chi da secoli coltiva queste colline con risultati eccellenti."
+      "Identità di un territorio aspro ma accogliente, ricco di preziosi tesori come il vino, il tartufo e la sapienza di chi da secoli coltiva queste colline con risultati eccellenti.",
+    buttonTo: "/rocche"
   }
 ];
 
@@ -107,7 +108,7 @@ export default function HeroSlider({
                   {showButton && (
                     <Button
                       component={Link}
-                      to={buttonTo}
+                      to={slide.buttonTo || buttonTo}
                       variant="contained"
                       sx={{
                         mt: 5,
