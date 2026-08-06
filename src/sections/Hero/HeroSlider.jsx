@@ -39,6 +39,10 @@ const defaultSlides = [
     subtitle:
       "Identità di un territorio aspro ma accogliente, ricco di preziosi tesori come il vino, il tartufo e la sapienza di chi da secoli coltiva queste colline con risultati eccellenti.",
     buttonTo: "/rocche"
+  },
+  {
+    image: "/images/etichetta-front.jpg",
+    showButton: false,
   }
 ];
 
@@ -66,7 +70,10 @@ export default function HeroSlider({
         slidesPerView={1}
         style={{ height: "100%" }}
       >
-        {slides.map((slide, index) => (
+        {slides.map((slide, index) => {
+          const shouldShowButton = slide.showButton ?? showButton;
+
+          return (
           <SwiperSlide key={slide.title || `${slide.image}-${index}`} style={{ height: "100%" }}>
             <Box
               className="hero-slide-inner"
@@ -105,7 +112,7 @@ export default function HeroSlider({
                     </>
                   )}
 
-                  {showButton && (
+                  {shouldShowButton && (
                     <Button
                       component={Link}
                       to={slide.buttonTo || buttonTo}
@@ -124,7 +131,8 @@ export default function HeroSlider({
               </Container>
             </Box>
           </SwiperSlide>
-        ))}
+          );
+        })}
       </Swiper>
     </Box>
   );

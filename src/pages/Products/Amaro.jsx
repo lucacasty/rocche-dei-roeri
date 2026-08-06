@@ -93,7 +93,7 @@ export default function Amaro() {
           >
             <Box
               component="img"
-              src="/images/bottiglia-amaro.png"
+              src="/images/bottiglia-amaro.jpg"
               alt="Amaro Rocche dei Roeri"
               sx={{
                 display: "block",

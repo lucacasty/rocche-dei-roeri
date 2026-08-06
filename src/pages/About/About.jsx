@@ -10,20 +10,18 @@ import Contact from "../../sections/Contact/Contact";
 
 const aboutHeroSlides = [
   { image: "/images/fiera.jpeg" },
-  { image: "/images/stand.jpeg" }
+  { image: "/images/stand.jpeg" },
+  { image: "/images/etichetta-front.jpg" },
 ];
 
 const herbSlides = [
-  //{ image: "/images/erba1.jpeg" },
-  { image: "/images/erba2.jpeg" },
-  { image: "/images/erba4.jpeg" },
-  { image: "/images/erba8.jpeg" },
-  { image: "/images/erba9.jpeg" },
-  { image: "/images/erba6.jpeg" },
-  { image: "/images/erba10.jpeg" },
-  { image: "/images/erba5.jpeg" },
-  { image: "/images/erba11.jpeg" },
-  { image: "/images/erba7.jpeg" },
+  { image: "/images/erba1.jpg" },
+  { image: "/images/erba2.jpg" },
+  { image: "/images/erba3.jpg" },
+  { image: "/images/erba4.jpg" },
+  { image: "/images/erba5.jpg" },
+  { image: "/images/erba6.jpg" },
+  { image: "/images/erba7.jpg" },
 ];
 
 export default function About() {
